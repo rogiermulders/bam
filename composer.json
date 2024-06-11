@@ -1,0 +1,17 @@
+{
+    "name": "zaffius/bam",
+    "description": "One click to Controller::method",
+    "type": "dev-plugin",
+    "autoload": {
+        "psr-4": {
+            "Zaffius\\Bam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rogier Mulders",
+            "email": "rogier.mulders@xs4all.nl"
+        }
+    ],
+    "require": {}
+}
