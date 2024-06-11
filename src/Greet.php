@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaffius\Bam;
+namespace Rogiermulders\Bam;
 
 class Greet
 {

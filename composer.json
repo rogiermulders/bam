@@ -1,10 +1,10 @@
 {
-    "name": "zaffius/bam",
+    "name": "rogiermulders/bam",
     "description": "One click to Controller::method",
     "type": "dev-plugin",
     "autoload": {
         "psr-4": {
-            "Zaffius\\Bam\\": "src/"
+            "Rogiermulders\\Bam\\": "src/"
         }
     },
     "authors": [
