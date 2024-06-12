@@ -33,7 +33,7 @@ chrome.devtools.network.onRequestFinished.addListener(
             // not myself
             if (url === 'api/zaffius-bam') return;
 
-            const fullPath = `${domain}/api/zaffius-bam?url=${encodeURI(url)}&method=${method}`
+            const fullPath = `${domain}/rogiermulders/bam?url=${encodeURI(url)}&method=${method}`
 
             const div = document.createElement('div');
             div.setAttribute('style', "display:flex;");
