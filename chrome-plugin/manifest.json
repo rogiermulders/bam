@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Zaffius BAM",
+    "description": "Opens PHPStorm files with a mouseclick in the browser.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "icons": {
+        "128": "icon.png"
+    },
+    "devtools_page": "devtools.html"
+}
