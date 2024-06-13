@@ -12,9 +12,8 @@ window.addEventListener('zaffius-bam-event', (e) => {
         e.target.style.textDecoration = 'none';
     })
     div.addEventListener('click', () => {
-        const request = new XMLHttpRequest();
-        request.open('GET', fullPath, true);
-        request.send();
+        // need iFrame for CORS
+        document.getElementById('the-iframe').src = fullPath;
     })
 
 })
