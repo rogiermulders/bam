@@ -72,8 +72,15 @@ class Bam
         }
 
         $lineNumber = ($i ?? 0) + 1;
-        $command = "phpstorm --line $lineNumber " . base_path() . "/$fileName >/dev/null";
+
+        $project = base_path();
+        $file = base_path() . "/$fileName";
+        $command = "phpstorm \"$project\" --line $lineNumber \"$file\" >/dev/null 2>&1";
         shell_exec($command);
+
+        // OLD VERSION
+//        $command = "phpstorm --line $lineNumber " . base_path() . "/$fileName >/dev/null";
+//        shell_exec($command);
 
     }
 
